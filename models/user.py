@@ -17,7 +17,6 @@ class User:
         # converts User to dictionary
         data = asdict(self)
         del data['password']
-        # data["is_admin"] = "YES" if self.is_admin else "NO"
         del data['is_admin']
         return data
 

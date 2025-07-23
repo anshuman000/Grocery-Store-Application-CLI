@@ -28,7 +28,7 @@ class AuthService:
             return None
         
     # Registration Function
-    def rergistration(
+    def registration(
             name: str,
             email: str,
             password: str,
