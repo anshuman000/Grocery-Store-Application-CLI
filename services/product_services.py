@@ -29,6 +29,8 @@ def remove_product():
     prod_id = input("Enter product id.")
     ProductFactory.remove_product(prod_id)
 
+    #edhjsfysgiy
+
 def print_product(product):
     for key, value in product.to_dict().items():
         print(f"{key.capitalize()} : {value}")

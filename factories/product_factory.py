@@ -67,3 +67,6 @@ class ProductFactory:
         db.commit()
         cursor.close()
         db.close()
+
+
+#nbnfjvsu

@@ -23,3 +23,5 @@ class Product:
             image = row[4],
             stock = row[5],
         )
+    
+#hdfhgfiu
